@@ -6,7 +6,14 @@
  */
 int main(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+
+    while (1)
+    {
+        for (int i=0; i<3; i++)
+        {
+
+        }
+    }
 	
 	return 0;
 }
