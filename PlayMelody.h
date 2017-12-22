@@ -78,7 +78,6 @@
 #define As6_P   536
 #define B6_P    506
 ////////////////////////////////////////////////////////////////////////////
-
 //////////////////////////////////Hig_values//////////////////////////
 #define Cs4_H   1805
 #define C4_H    1915
@@ -118,42 +117,10 @@
 #define A6_H    284
 #define As6_H   268
 #define B6_H    253
-////////////////////////////////////////////////////////////////////////////
-
-
-
-
-#define E4  329;  //3039
-#define Eb  311;  //3215
-#define Gb  369;  //2710
-#define C4  261;  //3831
-#define B4  493;  //2028
-#define Bb  466;  //2145
-#define G4  392;  //2551
-
-#define k3_per  333;
-#define k3_high 166;
-
-#define k4_per  250;
-#define k4_high 125;
-
-#define E4_per  3040;
-#define Eb_per  3216;
-#define Gb_per  2710;
-#define C4_per  3832;
-#define B4_per  2028;
-#define Bb_per  2146;
-#define G4_per  2552;
-
-#define E4_high  1520;
-#define Eb_high  1608;
-#define Gb_high  1355;
-#define C4_high  1916;
-#define B4_high  1014;
-#define Bb_high  1073;
-#define G4_high  1276;
 
 ///////////////////////////Functions////////////////////////
 void init();
-void melodyPlay();
 void melodyTest();
+void readSerial();
+void defineTone();
+void playTone(int Tone_P, int Tone_H);

@@ -1,5 +1,3 @@
-//#include <msp430.h>
-//#include <templateEMP.h>
 #include <PlayMelody.h>
 /////////////Macros//////////////////////////////////
 
@@ -12,14 +10,12 @@ void main(void)
        init();
 
 
-       while(1)
+       while (1)
        {
-           melodyTest();
-          //  melodyPlay();
+readSerial();
+
        }
-
-	
-
+       //defineTone();
 }
 
 
