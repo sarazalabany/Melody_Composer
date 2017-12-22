@@ -102,10 +102,6 @@ void readSerial()
        k++ ;
        if (i==32) //if there is a space we print the first tone
        {
-           //for(u=0; u<k ; u++)
-          // {
-           //serialWrite (Tone_char[u]);
-          // }
 
            for(u=0; u<3 ; u++)
             {
@@ -115,6 +111,7 @@ void readSerial()
                }
 
             }
+
            if (count==3) //the tone is Cs4
            {
 
